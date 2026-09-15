@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Bienvenido al curso 2026, $name",
+        text = "Bienvenido al curso 2026 de IA, $name",
         color = Color.Blue,
         style = MaterialTheme.typography.headlineMedium
     )
